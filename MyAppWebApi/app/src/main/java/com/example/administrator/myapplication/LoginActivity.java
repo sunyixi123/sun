@@ -4,16 +4,19 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.pm.PackageManager;
+import android.os.Looper;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.app.LoaderManager.LoaderCallbacks;
+
 
 import android.content.CursorLoader;
 import android.content.Loader;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Looper;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -29,9 +32,42 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import android.widget.Toast;
+
+import android.os.Handler;
+
 import static android.Manifest.permission.READ_CONTACTS;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.zip.GZIPInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
+
+import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+//import com.example.shancc.utils.LogUtils;
 
 /**
  * A login screen that offers login via email/password.
@@ -61,10 +97,28 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-
+    // 声明一个Handler对象
+    private static Handler handler=new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+//        StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+//                .detectDiskReads()
+//                .detectDiskWrites()
+//                .detectNetwork()   // or .detectAll() for all detectable problems
+//                .penaltyLog()
+//                .build());
+//        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+//                .detectLeakedSqlLiteObjects()
+//                .detectLeakedClosableObjects()
+//                .penaltyLog()
+//                .penaltyDeath()
+//                .build());
+
         super.onCreate(savedInstanceState);
+
+
+
         setContentView(R.layout.activity_login);
         // Set up the login form.
         mNameView = (EditText) findViewById(R.id.name);
@@ -87,11 +141,179 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override
             public void onClick(View view) {
                 attemptLogin();
+
+            }
+        });
+
+
+        Button mdrButton = (Button) findViewById(R.id.button);
+        mdrButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"登入成功,用户名：",Toast.LENGTH_SHORT).show();
+                GeocodeingTask a=  new GeocodeingTask();
+                a.execute();
+                Looper.loop();
             }
         });
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+    }
+
+    private class GeocodeingOnclickListener implements OnClickListener{
+        @Override
+        public void onClick(View v) {
+            new GeocodeingTask().execute();
+        }
+    }
+    private class GeocodeingTask extends AsyncTask<Integer, Integer, Integer>{
+        @Override
+        protected Integer doInBackground(Integer... params) {
+            try {
+                Looper.prepare();
+                String url = "http://59.80.30.160:38082/webapi/api/Login/Login";
+                HttpPost httpPost = new HttpPost(url);
+                org.apache.http.client.HttpClient httpClient = new DefaultHttpClient();
+                List<NameValuePair> parameters = new ArrayList<>();;
+                parameters.add(new BasicNameValuePair("name", mNameView.getText().toString()));
+                parameters.add(new BasicNameValuePair("password",  mPasswordView.getText().toString()));
+                JSONObject object = new JSONObject();
+                object.put("name", mNameView.getText().toString());
+                object.put("password",mPasswordView.getText().toString());
+                String paramsString = object.toJSONString();
+
+                StringEntity entity = new StringEntity(paramsString);
+                entity.setContentType("application/json");
+
+
+                httpPost.setEntity(entity);
+
+                HttpResponse execute = httpClient.execute(httpPost);
+                int statusCode = execute.getStatusLine().getStatusCode();
+                if(statusCode == HttpStatus.SC_OK){
+                    String string = EntityUtils.toString(execute.getEntity());
+                    JSONObject jsonObj = JSON.parseObject(string);
+                    String resultStatus = jsonObj.getString("status");
+                    if(resultStatus.equals("ok")){
+                        String resultData = jsonObj.getString("message");
+//                        JSONArray resultData = jsonObj.getJSONArray("message");
+                        List<data> list = new ArrayList<data>();
+                        list = JSONObject.parseArray(resultData, data.class);
+                        if(list.get(0).getCount()>0){
+
+                            Toast.makeText(getApplicationContext(),string,Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    Toast.makeText(getApplicationContext(),string,Toast.LENGTH_SHORT).show();
+                }
+
+            } catch (Exception e) {
+                Toast.makeText(getApplicationContext(),e.getMessage().toString(),Toast.LENGTH_SHORT).show();;
+            }
+
+            return null;
+        }
+
+    }
+
+    public class Link
+    {
+        private String status;
+
+        public Object message;
+
+        public String getStatus(){
+
+            return this.status;
+        }
+        public void setStatus(String Status){
+
+            this.status=Status;
+        }
+
+        public Object getMessage(){
+
+            return this.message;
+        }
+        public void setmessage(Object message){
+
+            this.message=message;
+        }
+    }
+    public static class data {
+
+        private int count;
+
+        public data(){}
+
+        public int getCount(){
+
+            return this.count;
+        }
+        public void setCount(int count){
+
+            this.count=count;
+        }
+    }
+    /**
+             Post提交多个参数：参数格式使用Json
+             服务器代码：
+             [HttpPost]
+             public string Post([FromBody]User value)
+             {
+             string userName = value.UserName;
+             return value.UserName +","+value.Age;
+             }
+             */
+
+  public void postParamsJson1(){
+      String resultString = null;
+      HttpURLConnection conn = null;
+      InputStream inputStream = null;
+      ByteArrayOutputStream bos = null;
+
+  }
+    /**
+     Post提交多个参数：参数格式使用Json
+     服务器代码：
+     [HttpPost]
+     public string Post([FromBody]User value)
+     {
+     string userName = value.UserName;
+     return value.UserName +","+value.Age;
+     }
+     */
+    public void postParamsJson(){
+
+        try {
+            String url = "http://59.80.30.160:38082/webapi/api/Login/Login";
+            HttpPost httpPost = new HttpPost(url);
+            org.apache.http.client.HttpClient httpClient = new DefaultHttpClient();
+            List<NameValuePair> parameters = new ArrayList<>();;
+            parameters.add(new BasicNameValuePair("name", mNameView.getText().toString()));
+            parameters.add(new BasicNameValuePair("password",  mPasswordView.getText().toString()));
+            JSONObject object = new JSONObject();
+            object.put("name", mNameView.getText().toString());
+            object.put("password",mPasswordView.getText().toString());
+            String paramsString = object.toJSONString();
+
+            StringEntity entity = new StringEntity(paramsString);
+            entity.setContentType("application/json");
+            httpPost.setEntity(entity);
+
+            HttpResponse execute = httpClient.execute(httpPost);
+            int statusCode = execute.getStatusLine().getStatusCode();
+            if(statusCode == HttpStatus.SC_OK){
+                String string = EntityUtils.toString(execute.getEntity());
+                Toast.makeText(this,string,Toast.LENGTH_SHORT).show();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
     }
 
     private void populateAutoComplete() {
