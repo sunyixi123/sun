@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="js/jquery.min.js"></script>
+ <script>
+     $(function () {
+         $('#ha').click(function () {
+             $.ajax({
+        type: "post",
+        url: "http://localhost:61346/api/Login/Login",
+        contentType: 'application/json',
+        data: JSON.stringify({ name:"Jim",password:"备注" }),
+        success: function (data, status) {}
+		})
+         });
+
+     })
+
+ </script>
+</head>
+<body>
+    <input type="button" id="ha" value="提交"/>
+</body>
+</html>
