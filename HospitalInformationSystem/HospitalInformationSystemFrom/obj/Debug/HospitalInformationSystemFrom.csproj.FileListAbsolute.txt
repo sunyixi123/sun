@@ -1,0 +1,15 @@
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\HospitalInformationSystemFrom.exe.config
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\HospitalInformationSystemFrom.exe
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\HospitalInformationSystemFrom.pdb
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.csproj.AssemblyReference.cache
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.Properties.Resources.resources
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.csproj.GenerateResource.cache
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.csproj.CoreCompileInputs.cache
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.exe
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.pdb
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\Newtonsoft.Json.dll
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\Newtonsoft.Json.xml
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.csproj.CopyComplete
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\NLog.dll
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\NLog.xml
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.FrmLogin.resources
