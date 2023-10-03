@@ -1,1 +1,207 @@
 2023-09-26 12:24:02.1091|INFO|HospitalInformationSystemFrom.Form1|httpClient.GetAsync
+2023-09-29 18:50:14.9223|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:18.2922|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:18.8009|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:19.0330|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:19.5604|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:20.1791|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:20.3490|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:20.5045|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:20.6592|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:20.8140|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:20.9694|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:21.1234|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:21.2785|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:21.4335|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-29 18:50:52.4844|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 55
+2023-09-30 08:22:27.7094|ERROR|HospitalInformationSystemFrom.FrmLogin|FrmLogin-butLogin|System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 HospitalInformationSystemFrom.FrmLogin.<button1_Click>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmLogin.cs:行号 122
+2023-09-30 11:47:59.5632|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP BadRequest
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 48
+2023-09-30 12:04:47.8454|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-09-30 21:46:06.0338|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-01 19:18:41.0083|ERROR|HospitalInformationSystemFrom.FrmDoctorSchedule|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmDoctorSchedule.<FrmDoctorSchedule_LoadAsync>d__2.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmDoctorSchedule.cs:行号 42

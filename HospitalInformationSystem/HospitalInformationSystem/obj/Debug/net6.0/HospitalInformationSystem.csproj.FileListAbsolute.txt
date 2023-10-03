@@ -75,3 +75,5 @@ C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\obj\Debug\net6.
 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\obj\Debug\net6.0\ref\HospitalInformationSystem.dll
 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\bin\Debug\net6.0\NLog.dll
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\bin\Debug\net6.0\AutoMapper.dll
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -6,7 +6,8 @@ namespace HospitalInformationSystem.Models
     public class Login
     {
         [Key]
-        public int UserID { get; set; }
+
+        public int? UserID { get; set; }
 
         [Required, StringLength(50)]
         public string Username { get; set; }
@@ -29,6 +30,6 @@ namespace HospitalInformationSystem.Models
         public string UpdaterOperator { get; set; }
 
         [DefaultValue(1)]
-        public char IsActive { get; set; }
+        public string IsActive { get; set; }
     }
 }

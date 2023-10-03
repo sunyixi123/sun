@@ -8,6 +8,8 @@
         [Key]
         public int UserID { get; set; }
 
+        public string IDNumber { get; set; }
+
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }
@@ -40,7 +42,7 @@
         [MaxLength(50)]
         public string UpdaterOperator { get; set; }
 
-        public char IsActive { get; set; }
+        public string IsActive { get; set; }
     }
 
 }

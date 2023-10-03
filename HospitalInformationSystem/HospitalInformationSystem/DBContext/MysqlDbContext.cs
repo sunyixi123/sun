@@ -13,6 +13,10 @@ namespace HospitalInformationSystem.DBContext
 
         public DbSet<Login> Login { get; set; }
 
+        public DbSet<DoctorSchedule> DoctorSchedule { get; set; }
+
+        public DbSet<DoctorAppointment> DoctorAppointment { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

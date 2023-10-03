@@ -29,6 +29,6 @@ namespace HospitalInformationSystemFrom
 
         public string UpdaterOperator { get; set; }
 
-        public char IsActive { get; set; }
+        public string IsActive { get; set; }
     }
 }

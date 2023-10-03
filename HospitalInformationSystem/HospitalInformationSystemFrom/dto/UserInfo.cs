@@ -7,7 +7,7 @@
     {
   
         public int UserID { get; set; }
-
+        public string IDNumber { get; set; }
 
         public string Name { get; set; }
 
@@ -36,7 +36,7 @@
 
         public string UpdaterOperator { get; set; }
 
-        public char IsActive { get; set; }
+        public string IsActive { get; set; }
     }
 
 }

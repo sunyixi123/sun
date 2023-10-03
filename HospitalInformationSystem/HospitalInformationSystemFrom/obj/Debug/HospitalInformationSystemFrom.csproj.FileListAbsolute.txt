@@ -13,3 +13,7 @@ C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\H
 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\NLog.dll
 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\bin\Debug\NLog.xml
 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.FrmLogin.resources
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.FrmWorkBench.resources
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.FrmRegistration.resources
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.FrmDoctorSchedule.resources
+C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\obj\Debug\HospitalInformationSystemFrom.FrmAppointment.resources

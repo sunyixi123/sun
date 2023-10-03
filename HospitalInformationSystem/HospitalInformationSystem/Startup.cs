@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Configuration;
+using AutoMapper;
 
 namespace HospitalInformationSystem
 {
@@ -43,7 +44,12 @@ namespace HospitalInformationSystem
             {
                 options.UseMySql(Configuration.GetConnectionString("MySqlConnection"),
                     new MariaDbServerVersion(new Version(8, 0, 34)));
+                options.EnableSensitiveDataLogging(); // 启用敏感数据日志
             });
+            // 添加 AutoMapper 的配置
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));
         }
     }
 }

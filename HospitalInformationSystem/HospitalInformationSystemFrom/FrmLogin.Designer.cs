@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBoxUserID = new System.Windows.Forms.TextBox();
+            this.textBoxUserName = new System.Windows.Forms.TextBox();
             this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,13 +47,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "用户名：";
             // 
-            // textBoxUserID
+            // textBoxUserName
             // 
-            this.textBoxUserID.Font = new System.Drawing.Font("思源宋体 CN", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textBoxUserID.Location = new System.Drawing.Point(98, 83);
-            this.textBoxUserID.Name = "textBoxUserID";
-            this.textBoxUserID.Size = new System.Drawing.Size(273, 28);
-            this.textBoxUserID.TabIndex = 1;
+            this.textBoxUserName.Font = new System.Drawing.Font("思源宋体 CN", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textBoxUserName.Location = new System.Drawing.Point(98, 83);
+            this.textBoxUserName.Name = "textBoxUserName";
+            this.textBoxUserName.Size = new System.Drawing.Size(273, 28);
+            this.textBoxUserName.TabIndex = 1;
             // 
             // textBoxPassword
             // 
@@ -63,6 +63,7 @@
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(273, 28);
             this.textBoxPassword.TabIndex = 3;
+            this.textBoxPassword.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPassword_KeyPress);
             // 
             // label2
             // 
@@ -110,14 +111,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(427, 288);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.butLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxPassword);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBoxUserID);
+            this.Controls.Add(this.textBoxUserName);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FrmLogin";
@@ -131,7 +132,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxUserID;
+        private System.Windows.Forms.TextBox textBoxUserName;
         private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
