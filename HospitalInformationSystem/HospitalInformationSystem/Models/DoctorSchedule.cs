@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 public class DoctorSchedule
 {
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int ScheduleID { get; set; }
 
     [Required]
@@ -14,7 +15,7 @@ public class DoctorSchedule
     public DateTime ScheduleDate { get; set; }
 
     [Required]
-    public TimeSpan StartTime { get; set; }
+    public TimeSpan StartTime { get; set; } 
 
     [Required]
     public TimeSpan EndTime { get; set; }

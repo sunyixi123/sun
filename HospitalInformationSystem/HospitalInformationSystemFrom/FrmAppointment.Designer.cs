@@ -49,10 +49,10 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.日期 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.剩余预约数 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.开始时间 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.结束时间 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScheduleDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaxAppointmentCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StartTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EndTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ScheduleID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DoctorID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -119,7 +119,8 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 50;
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(144, 644);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(208, 644);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
@@ -130,7 +131,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(144, 644);
+            this.panel2.Size = new System.Drawing.Size(208, 644);
             this.panel2.TabIndex = 1;
             // 
             // panel1
@@ -156,9 +157,9 @@
             this.panel4.Controls.Add(this.button2);
             this.panel4.Controls.Add(this.dataGridView2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(144, 0);
+            this.panel4.Location = new System.Drawing.Point(208, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(897, 644);
+            this.panel4.Size = new System.Drawing.Size(833, 644);
             this.panel4.TabIndex = 3;
             // 
             // label3
@@ -207,6 +208,7 @@
             this.textBoxPhoneNumber.Name = "textBoxPhoneNumber";
             this.textBoxPhoneNumber.Size = new System.Drawing.Size(200, 28);
             this.textBoxPhoneNumber.TabIndex = 16;
+            this.textBoxPhoneNumber.Visible = false;
             // 
             // label5
             // 
@@ -217,6 +219,7 @@
             this.label5.Size = new System.Drawing.Size(79, 20);
             this.label5.TabIndex = 17;
             this.label5.Text = "联系电话：";
+            this.label5.Visible = false;
             // 
             // button3
             // 
@@ -237,6 +240,7 @@
             this.button2.TabIndex = 12;
             this.button2.Text = "确定";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // dataGridView2
             // 
@@ -252,10 +256,10 @@
             this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.日期,
-            this.剩余预约数,
-            this.开始时间,
-            this.结束时间,
+            this.ScheduleDate,
+            this.MaxAppointmentCount,
+            this.StartTime,
+            this.EndTime,
             this.ScheduleID,
             this.DoctorID});
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -266,7 +270,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView2.Location = new System.Drawing.Point(6, 249);
+            this.dataGridView2.Location = new System.Drawing.Point(6, 200);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -280,40 +284,40 @@
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 100;
             this.dataGridView2.RowTemplate.Height = 23;
-            this.dataGridView2.Size = new System.Drawing.Size(627, 392);
+            this.dataGridView2.Size = new System.Drawing.Size(627, 422);
             this.dataGridView2.TabIndex = 0;
             // 
-            // 日期
+            // ScheduleDate
             // 
-            this.日期.DataPropertyName = "ScheduleDate";
-            this.日期.HeaderText = "日期";
-            this.日期.Name = "日期";
-            this.日期.ReadOnly = true;
-            this.日期.Width = 120;
+            this.ScheduleDate.DataPropertyName = "ScheduleDate";
+            this.ScheduleDate.HeaderText = "日期";
+            this.ScheduleDate.Name = "ScheduleDate";
+            this.ScheduleDate.ReadOnly = true;
+            this.ScheduleDate.Width = 120;
             // 
-            // 剩余预约数
+            // MaxAppointmentCount
             // 
-            this.剩余预约数.DataPropertyName = "MaxAppointmentCount";
-            this.剩余预约数.HeaderText = "剩余预约数";
-            this.剩余预约数.Name = "剩余预约数";
-            this.剩余预约数.ReadOnly = true;
-            this.剩余预约数.Width = 120;
+            this.MaxAppointmentCount.DataPropertyName = "MaxAppointmentCount";
+            this.MaxAppointmentCount.HeaderText = "剩余预约数";
+            this.MaxAppointmentCount.Name = "MaxAppointmentCount";
+            this.MaxAppointmentCount.ReadOnly = true;
+            this.MaxAppointmentCount.Width = 120;
             // 
-            // 开始时间
+            // StartTime
             // 
-            this.开始时间.DataPropertyName = "StartTime";
-            this.开始时间.HeaderText = "开始时间";
-            this.开始时间.Name = "开始时间";
-            this.开始时间.ReadOnly = true;
-            this.开始时间.Width = 150;
+            this.StartTime.DataPropertyName = "StartTime";
+            this.StartTime.HeaderText = "开始时间";
+            this.StartTime.Name = "StartTime";
+            this.StartTime.ReadOnly = true;
+            this.StartTime.Width = 150;
             // 
-            // 结束时间
+            // EndTime
             // 
-            this.结束时间.DataPropertyName = "EndTime";
-            this.结束时间.HeaderText = "结束时间";
-            this.结束时间.Name = "结束时间";
-            this.结束时间.ReadOnly = true;
-            this.结束时间.Width = 150;
+            this.EndTime.DataPropertyName = "EndTime";
+            this.EndTime.HeaderText = "结束时间";
+            this.EndTime.Name = "EndTime";
+            this.EndTime.ReadOnly = true;
+            this.EndTime.Width = 150;
             // 
             // ScheduleID
             // 
@@ -366,10 +370,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 日期;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 剩余预约数;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 开始时间;
-        private System.Windows.Forms.DataGridViewTextBoxColumn 结束时间;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScheduleDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaxAppointmentCount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StartTime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EndTime;
         private System.Windows.Forms.DataGridViewTextBoxColumn ScheduleID;
         private System.Windows.Forms.DataGridViewTextBoxColumn DoctorID;
     }

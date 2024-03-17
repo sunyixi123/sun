@@ -26,19 +26,19 @@ public class DoctorAppointment
     public string Notes { get; set; }
 
     [Required]
-    public DateTime CreateTime { get; set; }
+    public DateTime CreateTime { get; set; } = DateTime.Now;
 
     [Required]
     [MaxLength(50)]
-    public string CreateOperator { get; set; }
+    public string CreateOperator { get; set; } = "管理员";
 
     [Required]
-    public DateTime UpdaterTime { get; set; }
+    public DateTime UpdaterTime { get; set; }=DateTime.Now;
 
     [Required]
     [MaxLength(50)]
-    public string UpdaterOperator { get; set; }
+    public string UpdaterOperator { get; set; } = "管理员";
 
     [Required]
-    public string IsActive { get; set; }
+    public string IsActive { get; set; } = "1";
 }

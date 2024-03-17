@@ -25,6 +25,7 @@ namespace HospitalInformationSystemFrom
 
         }
         public static string OperatorName = string.Empty;
+        public static int OperatorID;
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         private async void button1_Click(object sender, EventArgs e)
         {
@@ -119,46 +120,55 @@ namespace HospitalInformationSystemFrom
                             }
                             FrmWorkBench frmWorkBench = new FrmWorkBench();
                             //角色
-                            switch (users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault().RoleID)
+                            switch (users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).RoleID)
                             {
                                 case "0":
                                     frmWorkBench = new FrmWorkBench();
-                                    frmWorkBench.UserInfo = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault();
+                                    frmWorkBench.UserInfo = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID);
                                     frmWorkBench.login = Logins.Where(t => t.Username == textBoxUserName.Text.Trim()).FirstOrDefault();
-                                    frmWorkBench.RoleID = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault().RoleID;
-                                    OperatorName = users.FirstOrDefault(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).Name;
+                                    frmWorkBench.RoleID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).RoleID;
+                                    OperatorName = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).Name;
+                                    OperatorID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).UserID;
                                     this.Hide();
                                     frmWorkBench.Show();
                                     break;
                                 case "1":
                                     frmWorkBench = new FrmWorkBench();
-                                    frmWorkBench.UserInfo = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault();
+                                    frmWorkBench.UserInfo = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID);
                                     frmWorkBench.login = Logins.Where(t => t.Username == textBoxUserName.Text.Trim()).FirstOrDefault();
-                                    frmWorkBench.RoleID = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault().RoleID;
+                                    frmWorkBench.RoleID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).RoleID;
+                                    OperatorName = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).Name;
+                                    OperatorID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).UserID;
                                     this.Hide();
                                     frmWorkBench.Show();
                                     break;
                                 case "2":
                                     frmWorkBench = new FrmWorkBench();
-                                    frmWorkBench.UserInfo = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault();
+                                    frmWorkBench.UserInfo = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID);
                                     frmWorkBench.login = Logins.Where(t => t.Username == textBoxUserName.Text.Trim()).FirstOrDefault();
-                                    frmWorkBench.RoleID = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault().RoleID;
+                                    frmWorkBench.RoleID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).RoleID;
+                                    OperatorName = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).Name;
+                                    OperatorID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).UserID;
                                     this.Hide();
                                     frmWorkBench.Show();
                                     break;
                                 case "3":
                                     frmWorkBench = new FrmWorkBench();
-                                    frmWorkBench.UserInfo = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault();
+                                    frmWorkBench.UserInfo = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID);
                                     frmWorkBench.login = Logins.Where(t => t.Username == textBoxUserName.Text.Trim()).FirstOrDefault();
-                                    frmWorkBench.RoleID = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault().RoleID;
+                                    frmWorkBench.RoleID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).RoleID;
+                                    OperatorName = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).Name;
+                                    OperatorID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).UserID;
                                     this.Hide();
                                     frmWorkBench.Show();
                                     break;
                                 case "4":
                                     frmWorkBench = new FrmWorkBench();
-                                    frmWorkBench.UserInfo = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault();
+                                    frmWorkBench.UserInfo = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID);
                                     frmWorkBench.login = Logins.Where(t => t.Username == textBoxUserName.Text.Trim()).FirstOrDefault();
-                                    frmWorkBench.RoleID = users.Where(t => Logins.Select(s => s.UserID).ToList().Contains(t.UserID)).FirstOrDefault().RoleID;
+                                    frmWorkBench.RoleID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).RoleID;
+                                    OperatorName = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).Name;
+                                    OperatorID = users.FirstOrDefault(u => u.UserID == Logins.FirstOrDefault(l => l.Username == textBoxUserName.Text).UserID).UserID;
                                     this.Hide();
                                     frmWorkBench.Show();
                                     break;

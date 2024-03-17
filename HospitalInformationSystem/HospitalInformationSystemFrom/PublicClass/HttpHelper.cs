@@ -7,6 +7,7 @@ using System;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 
 namespace HospitalInformationSystemFrom.PublicClass
@@ -23,6 +24,7 @@ namespace HospitalInformationSystemFrom.PublicClass
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         public async Task<string> SendPostRequestAsync(string apiUrl, string jsonContent)
         {
+            
             if (string.IsNullOrEmpty(apiUrl))
                 throw new ArgumentNullException(nameof(apiUrl));
 
@@ -45,7 +47,10 @@ namespace HospitalInformationSystemFrom.PublicClass
                 }
                 else
                 {
-                    throw new HttpRequestException($"HTTP {response.StatusCode}");
+                    // 请求失败，处理错误信息
+                    string errorMessage = await response.Content.ReadAsStringAsync();
+                    returnMessage returnMessage = new returnMessage { isSucceed = false, errorManger = errorMessage };
+                    return JsonConvert.SerializeObject(returnMessage);
                 }
             }
             catch (Exception ex)

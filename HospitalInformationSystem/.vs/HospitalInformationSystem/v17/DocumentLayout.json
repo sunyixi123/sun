@@ -1,0 +1,652 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\bysj\\bysj\\HospitalInformationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystemfrom\\frmordershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmordershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmordershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmordershow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmuserregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmuserregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmworkbench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmworkbench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmuserregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmuserregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmdoctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmdoctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmdoctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmdoctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmworkbench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmworkbench.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\publicclass\\httphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\publicclass\\httphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmuserregistration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmuserregistration.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\hospitalinformationsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\hospitalinformationsystem.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\models\\medicalvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\models\\medicalvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\models\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\models\\doctorappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\models\\doctorappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmworkbench.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmworkbench.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\dto\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\dto\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\dto\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\dto\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmordershow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmordershow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmorder.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\dto\\medicalvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\dto\\medicalvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|c:\\bysj\\bysj\\hospitalinformationsystem\\hospitalinformationsystem\\dtomapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84D75654-3C99-4BEA-BDEE-4C7CD1765985}|HospitalInformationSystem\\HospitalInformationSystem.csproj|solutionrelative:hospitalinformationsystem\\dtomapper\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\dto\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\dto\\doctorschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|C:\\bysj\\bysj\\HospitalInformationSystem\\hospitalinformationsystemfrom\\frmdoctorschedule.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ED0892-61FF-436E-972B-F72F4B1815C6}|HospitalInformationSystemFrom\\HospitalInformationSystemFrom.csproj|solutionrelative:hospitalinformationsystemfrom\\frmdoctorschedule.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HospitalInformationSystem\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmWorkBench.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmWorkBench.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmWorkBench.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmWorkBench.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmWorkBench.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T15:03:54.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmUserRegistration.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmUserRegistration.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmUserRegistration.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmUserRegistration.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmUserRegistration.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:57:02.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmOrder.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmOrder.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrder.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmOrder.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T00:51:07.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmOrderShow.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrderShow.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmOrderShow.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrderShow.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmOrderShow.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T14:34:46.961Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOrderShow.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrderShow.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmOrderShow.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrderShow.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmOrderShow.cs",
+              "ViewState": "AQIAAIgBAAAAAAAAAAAYwJ4BAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T14:38:16.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmOrder.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrder.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmOrder.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrder.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmOrder.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T03:45:59.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmLogin.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmLogin.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmLogin.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAhwIkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-03T10:03:19.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Controllers\\UserController.cs",
+              "ViewState": "AQIAANUAAAAAAAAAAAAIwO4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T12:42:14.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmRegistration.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegistration.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmRegistration.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegistration.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmRegistration.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T17:04:54.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmRegister.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmRegister.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegister.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmRegister.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T14:24:22.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmRegister.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegister.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmRegister.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegister.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmRegister.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAewLUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T02:02:19.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FrmUserRegistration.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmUserRegistration.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmUserRegistration.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmUserRegistration.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmUserRegistration.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAAAN8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:57:17.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmLogin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmLogin.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmLogin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmLogin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-03T10:03:17.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmDoctorSchedule.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmDoctorSchedule.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmDoctorSchedule.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmDoctorSchedule.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmDoctorSchedule.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-09T03:08:11.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmAppointment.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmAppointment.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmAppointment.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmAppointment.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmAppointment.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T17:06:07.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmAppointment.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmAppointment.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmAppointment.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmAppointment.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmAppointment.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAawKcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T16:36:55.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmWorkBench.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmWorkBench.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmWorkBench.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmWorkBench.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmWorkBench.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAhwDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-09T00:33:16.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmRegistration.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegistration.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmRegistration.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmRegistration.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmRegistration.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIA1wCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-03T08:50:38.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmDoctorSchedule.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmDoctorSchedule.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmDoctorSchedule.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmDoctorSchedule.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmDoctorSchedule.cs",
+              "ViewState": "AQIAAIoBAAAAAAAAAAAhwJ4BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T02:18:49.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Startup.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Startup.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Startup.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T12:49:04.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Program.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Program.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T17:04:18.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HttpHelper.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\PublicClass\\HttpHelper.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\PublicClass\\HttpHelper.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\PublicClass\\HttpHelper.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\PublicClass\\HttpHelper.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwDQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-29T07:41:31.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmUserRegistration.Designer.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmUserRegistration.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmUserRegistration.Designer.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmUserRegistration.Designer.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmUserRegistration.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:57:24.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T06:49:49.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Models\\MedicalRecord.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Models\\MedicalRecord.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAywCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T00:52:42.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MedicalVisit.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\MedicalVisit.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Models\\MedicalVisit.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\MedicalVisit.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Models\\MedicalVisit.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T16:26:46.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Models\\Prescription.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\Prescription.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Models\\Prescription.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T16:07:03.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HospitalInformationSystem",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\HospitalInformationSystem.csproj",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\HospitalInformationSystem.csproj",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\HospitalInformationSystem.csproj",
+              "RelativeToolTip": "HospitalInformationSystem\\HospitalInformationSystem.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-09-29T06:09:56.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DoctorSchedule.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\DoctorSchedule.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Models\\DoctorSchedule.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\DoctorSchedule.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Models\\DoctorSchedule.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAzwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T06:35:11.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DoctorAppointment.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\DoctorAppointment.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\Models\\DoctorAppointment.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\Models\\DoctorAppointment.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\Models\\DoctorAppointment.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T06:32:47.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\DTOMapper\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystem\\DTOMapper\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystem\\DTOMapper\\AutoMapperProfile.cs",
+              "RelativeToolTip": "HospitalInformationSystem\\DTOMapper\\AutoMapperProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T16:28:03.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\Program.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\Program.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T13:24:37.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FrmWorkBench.Designer.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmWorkBench.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmWorkBench.Designer.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmWorkBench.Designer.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmWorkBench.Designer.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAIwEIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-09T00:24:34.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\dto\\MedicalRecord.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\MedicalRecord.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\dto\\MedicalRecord.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAywCAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T00:52:56.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\Prescription.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\dto\\Prescription.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\Prescription.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\dto\\Prescription.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA3wC4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T00:54:33.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FrmOrderShow.Designer.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrderShow.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmOrderShow.Designer.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrderShow.Designer.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmOrderShow.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T16:47:09.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MedicalVisit.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\MedicalVisit.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\dto\\MedicalVisit.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\MedicalVisit.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\dto\\MedicalVisit.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T05:21:36.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FrmOrder.Designer.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrder.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmOrder.Designer.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmOrder.Designer.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmOrder.Designer.cs",
+              "ViewState": "AQIAAGMCAAAAAAAAAAApwGkCAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-07T16:26:23.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DoctorSchedule.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\DoctorSchedule.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\dto\\DoctorSchedule.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\dto\\DoctorSchedule.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\dto\\DoctorSchedule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T06:32:35.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FrmDoctorSchedule.Designer.cs",
+              "DocumentMoniker": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmDoctorSchedule.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalInformationSystemFrom\\FrmDoctorSchedule.Designer.cs",
+              "ToolTip": "C:\\bysj\\bysj\\HospitalInformationSystem\\HospitalInformationSystemFrom\\FrmDoctorSchedule.Designer.cs",
+              "RelativeToolTip": "HospitalInformationSystemFrom\\FrmDoctorSchedule.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-06T08:46:18.645Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

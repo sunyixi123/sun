@@ -21,7 +21,12 @@ namespace HospitalInformationSystemFrom
                 builder.ForLogger().FilterMinLevel(LogLevel.Info).WriteToConsole();
                 builder.ForLogger().FilterMinLevel(LogLevel.Debug).WriteToFile(fileName: "file.txt");
             });
-            Application.Run(new FrmAppointment());
+            try {
+                Application.Run(new FrmLogin());
+            } catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
     }
 }

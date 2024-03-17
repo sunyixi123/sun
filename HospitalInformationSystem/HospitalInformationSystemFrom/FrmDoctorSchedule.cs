@@ -41,7 +41,7 @@ namespace HospitalInformationSystemFrom
             string apiUrlGetUsers = "http://localhost:5250/api/User/GetUsers";
             // 创建一个 HttpClient 实例
             List<UserInfo> users = new List<UserInfo>();
-            try 
+            try
             {
 
                 // 发送 GET 请求
@@ -56,7 +56,7 @@ namespace HospitalInformationSystemFrom
                     users = JsonConvert.DeserializeObject<List<UserInfo>>(responseBodyGetUsers);
 
                     List<DoctorDTO> doctorDTOs = new List<DoctorDTO>();
-                    foreach (var s in users.Where(t=>t.RoleID=="2"))
+                    foreach (var s in users.Where(t => t.RoleID == "2"))
                     {
                         doctorDTOs.Add(new DoctorDTO { name = s.Name, ID = s.UserID });
                     }
@@ -72,11 +72,11 @@ namespace HospitalInformationSystemFrom
                 Logger.Error(ex, "FrmLogin-butLogin");
             }
         }
-
+        DataTable calendarTable = new System.Data.DataTable();
         private void InitializeCalendar(int Year, int Month)
         {
             // 创建一个新的DataTable以存储日历数据
-            var calendarTable = new System.Data.DataTable();
+            calendarTable = new System.Data.DataTable();
             calendarTable.Columns.Add("Sunday", typeof(string));
             calendarTable.Columns.Add("Monday", typeof(string));
             calendarTable.Columns.Add("Tuesday", typeof(string));
@@ -123,16 +123,19 @@ namespace HospitalInformationSystemFrom
             {
                 col.Width = 40;
             }
+            dataGridView2.ClearSelection();
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             InitializeCalendar((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+            dataGridView1_SelectionChanged(sender, e);
         }
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
             InitializeCalendar((int)numericUpDown1.Value, (int)numericUpDown2.Value);
+            dataGridView1_SelectionChanged(sender, e);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -143,7 +146,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[0].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[0].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[0].Tag = Color.Green;
                     }
                     else
                     {
@@ -159,7 +162,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[1].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[1].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[1].Tag = Color.Green;
                     }
                     else
                     {
@@ -175,7 +178,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[2].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[2].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[2].Tag = Color.Green;
                     }
                     else
                     {
@@ -191,7 +194,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[3].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[3].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[3].Tag = Color.Green;
                     }
                     else
                     {
@@ -207,7 +210,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[4].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[4].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[4].Tag = Color.Green;
                     }
                     else
                     {
@@ -223,7 +226,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[5].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[5].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[5].Tag = Color.Green;
                     }
                     else
                     {
@@ -239,7 +242,7 @@ namespace HospitalInformationSystemFrom
                 {
                     if (dataGridView2.Rows[i].Cells[6].Value?.ToString() != "")
                     {
-                        dataGridView2.Rows[i].Cells[6].Tag = Color.Blue;
+                        dataGridView2.Rows[i].Cells[6].Tag = Color.Green;
                     }
                     else
                     {
@@ -268,6 +271,13 @@ namespace HospitalInformationSystemFrom
 
         private void button3_Click(object sender, EventArgs e)
         {
+            checkBox1.Checked=false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            checkBox6.Checked = false;
+            checkBox7.Checked = false;
             if (!checkBox1.Checked)
             {
                 for (int i = 0; i < dataGridView2.Rows.Count; i++)
@@ -344,48 +354,63 @@ namespace HospitalInformationSystemFrom
 
             }
         }
-        int selectDoctorID ;
+        int selectDoctorID;
         private async void button2_Click(object sender, EventArgs e)
         {
-            string apiUrl = "http://localhost:5250/api/User/SetDoctorSchedules"; // 替换为您的API地址
+            selectDoctorID = 0;
+            foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+            {
 
+                selectDoctorID = (int)row.Cells["Column9"].Value;
+            }
+            string apiUrl = "http://localhost:5250/api/User/SetDoctorSchedules"; // 替换为您的API地址                                                                // 创建一个 HttpClient 实例
+            httpClient = new HttpClient();
+            httpHelper = new HttpHelper(httpClient);
             List<DoctorSchedule> DoctorSchedules = new List<DoctorSchedule>();
             for (int i = 0; i < dataGridView2.Rows.Count; i++)
             {
 
-                DoctorSchedule doctorSchedule = new DoctorSchedule();
+
                 for (int j = 0; j < dataGridView2.Rows[i].Cells.Count; j++)
                 {
-                    
-                    if(dataGridView2.Rows[i].Cells[j].Tag!=null&&(Color)dataGridView2.Rows[i].Cells[j].Tag == Color.Blue)
+                    DoctorSchedule doctorSchedule = new DoctorSchedule();
+                    if (dataGridView2.Rows[i].Cells[j].Tag != null && (Color)dataGridView2.Rows[i].Cells[j].Tag == Color.Green)
                     {
                         doctorSchedule.ScheduleDate = DateTime.Parse(numericUpDown1.Value.ToString() + "-" + numericUpDown2.Value.ToString() + "-" + dataGridView2.Rows[i].Cells[j].Value.ToString());
                         doctorSchedule.DoctorID = selectDoctorID;
                         doctorSchedule.CreateTime = DateTime.Now;
-                        doctorSchedule.CreateOperator = FrmLogin.OperatorName;
-                        doctorSchedule.UpdaterOperator = FrmLogin.OperatorName;
-                        doctorSchedule.StartTime = TimeSpan.Zero;
-                        doctorSchedule.EndTime = TimeSpan.Zero;
+                        doctorSchedule.UpdaterTime = DateTime.Now;
+                        doctorSchedule.CreateOperator = FrmLogin.OperatorName == "" ? "管理员" : FrmLogin.OperatorName;
+                        doctorSchedule.UpdaterOperator = FrmLogin.OperatorName == "" ? "管理员" : FrmLogin.OperatorName;
+                        doctorSchedule.StartTime = new TimeSpan(8, 0, 0);
+                        doctorSchedule.EndTime = new TimeSpan(18, 0, 0);
                         doctorSchedule.IsActive = "1";
                         doctorSchedule.MaxAppointmentCount = (int)numericUpDown3.Value;
+                        doctorSchedule.Department = "门诊内科";
                     }
                     else
                     {
-                        doctorSchedule.ScheduleDate = DateTime.Parse(numericUpDown1.Value.ToString() + "-" + numericUpDown2.Value.ToString() + "-" + dataGridView2.Rows[i].Cells[j].Value.ToString());
-                        doctorSchedule.DoctorID = selectDoctorID;
-                        doctorSchedule.CreateTime = DateTime.Now;
-                        doctorSchedule.CreateOperator = FrmLogin.OperatorName;
-                        doctorSchedule.UpdaterOperator = FrmLogin.OperatorName;
-                        doctorSchedule.StartTime = TimeSpan.Zero;
-                        doctorSchedule.EndTime = TimeSpan.Zero;
-                        doctorSchedule.IsActive = "0";
-                        doctorSchedule.MaxAppointmentCount = (int)numericUpDown3.Value;
+                        if (dataGridView2.Rows[i].Cells[j].Value != null && dataGridView2.Rows[i].Cells[j].Value.ToString() != "")
+                        {
+                            doctorSchedule.ScheduleDate = DateTime.Parse(numericUpDown1.Value.ToString() + "-" + numericUpDown2.Value.ToString() + "-" + dataGridView2.Rows[i].Cells[j].Value.ToString());
+                            doctorSchedule.DoctorID = selectDoctorID;
+                            doctorSchedule.CreateTime = DateTime.Now;
+                            doctorSchedule.UpdaterTime = DateTime.Now;
+                            doctorSchedule.CreateOperator = FrmLogin.OperatorName == "" ? "管理员" : FrmLogin.OperatorName;
+                            doctorSchedule.UpdaterOperator = FrmLogin.OperatorName == "" ? "管理员" : FrmLogin.OperatorName;
+                            doctorSchedule.StartTime = new TimeSpan(8, 0, 0);
+                            doctorSchedule.EndTime = new TimeSpan(18, 0, 0);
+                            doctorSchedule.IsActive = "0";
+                            doctorSchedule.MaxAppointmentCount = (int)numericUpDown3.Value;
+                            doctorSchedule.Department = "门诊内科";
+                        }
                     }
-                    DoctorSchedules.Add(doctorSchedule);
+                    if (dataGridView2.Rows[i].Cells[j].Value != null && dataGridView2.Rows[i].Cells[j].Value.ToString() != "")
+                        DoctorSchedules.Add(doctorSchedule);
                 }
-                
+
             }
-            
+
             // 将 Person 对象序列化为 JSON 字符串
             string json = JsonConvert.SerializeObject(DoctorSchedules);
             if (DoctorSchedules == null)
@@ -393,30 +418,124 @@ namespace HospitalInformationSystemFrom
                 return;
             }
             Task<string> responseSetLogins = httpHelper.SendPostRequestAsync(apiUrl, json);
-            // 使用 await 等待异步任务完成，并获取其结果
-            string setResult = await responseSetLogins;
-            returnMessage re = JsonConvert.DeserializeObject<returnMessage>(setResult);
-            if (re != null)
+            try
             {
-                if (re.isSucceed != true)
+                // 使用 await 等待异步任务完成，并获取其结果
+                string setResult = await responseSetLogins;
+                returnMessage re = JsonConvert.DeserializeObject<returnMessage>(setResult);
+                if (re != null)
                 {
-                    MessageBox.Show(re.errorManger, "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    if (re.isSucceed != true)
+                    {
+                        MessageBox.Show(re.errorManger, "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("排班成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private async void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            selectDoctorID = 0;
+            foreach (DataGridViewRow row in dataGridView1.SelectedRows)
+            {
+
+                selectDoctorID = (int)row.Cells["Column9"].Value;
+            }
+            // 创建一个 HttpClient 实例
+            httpClient = new HttpClient();
+            httpHelper = new HttpHelper(httpClient);
+            string apiUrlGetUsers = "http://localhost:5250/api/User/GetDoctorSchedules";
+            // 创建一个 HttpClient 实例
+            List<DoctorSchedule> DoctorSchedules = new List<DoctorSchedule>();
+            try
+            {
+
+                // 发送 GET 请求
+                HttpResponseMessage responseGetUsers = await httpClient.GetAsync(apiUrlGetUsers);
+
+                // 检查响应状态码
+                if (responseGetUsers.IsSuccessStatusCode)
+                {
+                    // 读取响应内容
+                    string responseBodyGetUsers = await responseGetUsers.Content.ReadAsStringAsync();
+                    // 使用 System.Text.Json 反序列化 JSON 数据
+                    DoctorSchedules = JsonConvert.DeserializeObject<List<DoctorSchedule>>(responseBodyGetUsers);
+
+                    List<DoctorScheduleDTO> doctorScheduleDTOs = new List<DoctorScheduleDTO>();
+                    foreach (var s in DoctorSchedules.Where(t => t.DoctorID == selectDoctorID))
+                    {
+                        doctorScheduleDTOs.Add(new DoctorScheduleDTO
+                        {
+                            DoctorID = selectDoctorID,
+                            IsActive = s.IsActive,
+                            ScheduleDate = s.ScheduleDate,
+                            ScheduleID = s.ScheduleID
+                        });
+                    }
+                    dataGridView2.DataSource = calendarTable;
+                    if (doctorScheduleDTOs == null)
+                    {
+                        dataGridView2.DataSource = calendarTable;
+                    }
+                    else
+                    {
+                        doctorScheduleDTOs = doctorScheduleDTOs.Where(t => t.ScheduleDate.Year == numericUpDown1.Value && t.ScheduleDate.Month == numericUpDown2.Value).ToList();
+
+
+                        for (int i = 0; i < dataGridView2.Rows.Count; i++)
+                        {
+
+                            DoctorSchedule doctorSchedule = new DoctorSchedule();
+                            for (int j = 0; j < dataGridView2.Rows[i].Cells.Count; j++)
+                            {
+
+                                if (dataGridView2.Rows[i].Cells[j].Value != null && !string.IsNullOrEmpty(dataGridView2.Rows[i].Cells[j].Value?.ToString()) && doctorScheduleDTOs.FirstOrDefault(t=>t.ScheduleDate.Day== Convert.ToInt16(dataGridView2.Rows[i].Cells[j].Value))?.IsActive=="1")
+                                {
+                                    dataGridView2.Rows[i].Cells[j].Tag = Color.Green;
+                                }
+                                else
+                                {
+                                    dataGridView2.Rows[i].Cells[j].Tag = Color.White;
+                                }
+                                dataGridView2.InvalidateRow(i);
+                            }
+
+                        }
+
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("排班成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("网络故障请稍后再试!", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
-        }
-
-        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
-        {
-
+            catch (HttpRequestException ex)
+            {
+                Logger.Error(ex, "FrmLogin-butLogin");
+            }
+            dataGridView2.ClearSelection();
         }
     }
     public class DoctorDTO
     {
         public string name { get; set; }
         public int ID { get; set; }
+    }
+
+    public class DoctorScheduleDTO
+    {
+        public int ScheduleID { get; set; }
+        public int DoctorID { get; set; }
+        public DateTime ScheduleDate { get; set; }
+        public string IsActive { get; set; }
     }
 }

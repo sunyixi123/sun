@@ -69,7 +69,7 @@
             this.textBoxUserName.Name = "textBoxUserName";
             this.textBoxUserName.Size = new System.Drawing.Size(273, 28);
             this.textBoxUserName.TabIndex = 2;
-            this.textBoxUserName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPressAsync);
+            this.textBoxUserName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox4_KeyPress);
             this.textBoxUserName.Leave += new System.EventHandler(this.textBoxUserName_Leave);
             // 
             // label2
@@ -292,7 +292,7 @@
             this.Name = "FrmRegistration";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "患者登记";
+            this.Text = "患者信息登记";
             this.Load += new System.EventHandler(this.FrmRegistration_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

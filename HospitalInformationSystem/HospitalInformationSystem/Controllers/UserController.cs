@@ -3,7 +3,9 @@ using HospitalInformationSystem.DBContext;
 using HospitalInformationSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using NLog.Fluent;
+using System.Configuration;
 
 namespace HospitalInformationSystem.Controllers
 {
@@ -13,7 +15,7 @@ namespace HospitalInformationSystem.Controllers
     [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        private MysqlDbContext _context;
+        private readonly MysqlDbContext _context;
         private readonly IMapper _mapper;
 
         public UserController(MysqlDbContext dbContext, IMapper mapper)
@@ -87,7 +89,7 @@ namespace HospitalInformationSystem.Controllers
                 var mappedUserInfo = _mapper.Map(UserLoginDTO.UserInfo, existingUserInfo1);
                 _context.Entry(existingUserInfo1).State = EntityState.Modified;
                 // 执行更新操作
-                _context.SaveChangesAsync();
+                _context.SaveChanges();
 
             }
             else
@@ -95,7 +97,7 @@ namespace HospitalInformationSystem.Controllers
                 _context.UserInfo.Add(UserLoginDTO.UserInfo);
                 try
                 {
-                    _context.SaveChangesAsync();
+                    _context.SaveChanges();
                     // 使用 EF Core 查询用户信息表
                     NewUsers = _context.UserInfo.FirstOrDefault(t => t.IDNumber == UserLoginDTO.UserInfo.IDNumber);
                 }
@@ -116,7 +118,7 @@ namespace HospitalInformationSystem.Controllers
                 var mappedUserInfo = _mapper.Map(UserLoginDTO.Login, existinglogin1);
                 _context.Entry(existinglogin1).State = EntityState.Modified;
                 // 执行更新操作
-                _context.SaveChangesAsync();
+                _context.SaveChanges();
 
             }
             else if (NewUsers != null)
@@ -129,7 +131,7 @@ namespace HospitalInformationSystem.Controllers
 
             try
             {
-                _context.SaveChangesAsync();
+                _context.SaveChanges();
                 // 处理并发冲突
                 return returnMessage;
             }
@@ -149,15 +151,18 @@ namespace HospitalInformationSystem.Controllers
 
             return Logins;
         }
-        [HttpGet("SetDoctorSchedules")]
+        [HttpPost("SetDoctorSchedules")]
         public returnMessage SetDoctorSchedules([FromBody] List<DoctorSchedule> DoctorSchedule)
         {
+
             returnMessage returnMessage = new returnMessage { isSucceed = true, errorManger = "" };
             foreach (var s in DoctorSchedule)
             {
-                DoctorSchedule tempDoctorSchedules = _context.DoctorSchedule.FirstOrDefault(t => t.DoctorID == s.DoctorID && t.ScheduleDate == s.ScheduleDate);
+                DoctorSchedule tempDoctorSchedules = new DoctorSchedule();
+                tempDoctorSchedules = _context.DoctorSchedule.FirstOrDefault(t => t.DoctorID == s.DoctorID && t.ScheduleDate == s.ScheduleDate);
                 if (tempDoctorSchedules != null)
                 {
+                    s.ScheduleID = tempDoctorSchedules.ScheduleID;
                     // 使用 AutoMapper 将 DTO 映射到实体对象
                     _context.Entry(tempDoctorSchedules).State = EntityState.Detached; // 分离实体
                     var mappedUserInfo = _mapper.Map(s, tempDoctorSchedules);
@@ -170,17 +175,16 @@ namespace HospitalInformationSystem.Controllers
             }
             try
             {
-                _context.SaveChangesAsync();
+                _context.SaveChanges();
                 // 处理并发冲突
-                return returnMessage;
             }
             catch (DbUpdateConcurrencyException)
             {
                 // 处理并发冲突
                 returnMessage.isSucceed = false;
                 returnMessage.errorManger = "排班冲突";
-                return returnMessage;
             }
+            return returnMessage;
         }
 
         [HttpGet("GetDoctorAppointments")]
@@ -192,28 +196,30 @@ namespace HospitalInformationSystem.Controllers
             return Logins;
         }
 
-        [HttpGet("SetDoctorAppointments")]
-        public returnMessage SetDoctorAppointments([FromBody] List<DoctorAppointment> DoctorAppointment)
+        [HttpPost("SetDoctorAppointments")]
+        public returnMessage SetDoctorAppointments([FromBody] DoctorAppointment intoDoctorAppointment)
         {
             returnMessage returnMessage = new returnMessage { isSucceed = true, errorManger = "" };
-            foreach (var s in DoctorAppointment)
+
+            DoctorAppointment tempDoctorAppointments = _context.DoctorAppointment.FirstOrDefault(t => t.ScheduleID == intoDoctorAppointment.ScheduleID && t.PatientID == intoDoctorAppointment.PatientID);
+            if (tempDoctorAppointments != null)
             {
-                DoctorAppointment tempDoctorAppointments = _context.DoctorAppointment.FirstOrDefault(t => t.ScheduleID == s.ScheduleID && t.PatientID == s.PatientID);
-                if (tempDoctorAppointments != null)
-                {
-                    // 使用 AutoMapper 将 DTO 映射到实体对象
-                    _context.Entry(tempDoctorAppointments).State = EntityState.Detached; // 分离实体
-                    var mappedDoctorAppointment = _mapper.Map(s, tempDoctorAppointments);
-                    _context.Entry(tempDoctorAppointments).State = EntityState.Modified;
-                }
-                else
-                {
-                    _context.DoctorAppointment.Add(s);
-                }
+                intoDoctorAppointment.AppointmentID= tempDoctorAppointments.AppointmentID;
+                // 使用 AutoMapper 将 DTO 映射到实体对象
+                _context.Entry(tempDoctorAppointments).State = EntityState.Detached; // 分离实体
+                var mappedDoctorAppointment = _mapper.Map(intoDoctorAppointment, tempDoctorAppointments);
+                _context.Entry(tempDoctorAppointments).State = EntityState.Modified;
             }
+            else
+            {
+                _context.DoctorAppointment.Add(intoDoctorAppointment);
+            }
+
+            _context.DoctorSchedule.FirstOrDefault(t => t.ScheduleID == intoDoctorAppointment.ScheduleID).MaxAppointmentCount--;
+
             try
             {
-                _context.SaveChangesAsync();
+                _context.SaveChanges();
                 // 处理并发冲突
                 return returnMessage;
             }
@@ -222,6 +228,133 @@ namespace HospitalInformationSystem.Controllers
                 // 处理并发冲突
                 returnMessage.isSucceed = false;
                 returnMessage.errorManger = "预约冲突";
+                return returnMessage;
+            }
+        }
+
+        [HttpGet("GetMedicalVisits")]
+        public List<MedicalVisit> GetMedicalVisits()
+        {
+            // 使用 EF Core 查询用户信息表
+            List<MedicalVisit> Logins = _context.MedicalVisit.ToList();
+
+            return Logins;
+        }
+
+        [HttpPost("SetMedicalVisit")]
+        public returnMessage SetMedicalVisit([FromBody] MedicalVisit intoMedicalVisit)
+        {
+            returnMessage returnMessage = new returnMessage { isSucceed = true, errorManger = "" };
+
+            MedicalVisit tempMedicalVisits = _context.MedicalVisit.FirstOrDefault(t => t.AppointmentID == intoMedicalVisit.AppointmentID && t.PatientID == intoMedicalVisit.PatientID);
+            if (tempMedicalVisits != null)
+            {
+                intoMedicalVisit.VisitID = tempMedicalVisits.VisitID;
+                // 使用 AutoMapper 将 DTO 映射到实体对象
+                _context.Entry(tempMedicalVisits).State = EntityState.Detached; // 分离实体
+                var mappedDoctorAppointment = _mapper.Map(intoMedicalVisit, tempMedicalVisits);
+                _context.Entry(tempMedicalVisits).State = EntityState.Modified;
+            }
+            else
+            {
+                _context.MedicalVisit.Add(intoMedicalVisit);
+            }
+
+            try
+            {
+                _context.SaveChanges();
+                // 处理并发冲突
+                return returnMessage;
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                // 处理并发冲突
+                returnMessage.isSucceed = false;
+                returnMessage.errorManger = "挂号登记失败";
+                return returnMessage;
+            }
+        }
+
+        [HttpGet("GetPrescriptions")]
+        public List<Prescription> GetPrescriptions()
+        {
+            // 使用 EF Core 查询用户信息表
+            List<Prescription> Logins = _context.Prescription.ToList();
+
+            return Logins;
+        }
+
+        [HttpPost("SetPrescription")]
+        public returnMessage SetPrescription([FromBody] Prescription intoPrescription)
+        {
+            returnMessage returnMessage = new returnMessage { isSucceed = true, errorManger = "" };
+
+            Prescription tempPrescriptions = _context.Prescription.FirstOrDefault(t => t.PrescriptionID == intoPrescription.PrescriptionID && t.PatientID == intoPrescription.PatientID);
+            if (tempPrescriptions != null)
+            {
+                // 使用 AutoMapper 将 DTO 映射到实体对象
+                _context.Entry(tempPrescriptions).State = EntityState.Detached; // 分离实体
+                var mappedDoctorAppointment = _mapper.Map(intoPrescription, tempPrescriptions);
+                _context.Entry(tempPrescriptions).State = EntityState.Modified;
+            }
+            else
+            {
+                _context.Prescription.Add(intoPrescription);
+            }
+
+            try
+            {
+                _context.SaveChanges();
+                // 处理并发冲突
+                return returnMessage;
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                // 处理并发冲突
+                returnMessage.isSucceed = false;
+                returnMessage.errorManger = "医嘱录入失败";
+                return returnMessage;
+            }
+        }
+
+        [HttpGet("GetMedicalRecords")]
+        public List<MedicalRecord> GetMedicalRecords()
+        {
+            // 使用 EF Core 查询用户信息表
+            List<MedicalRecord> Logins = _context.MedicalRecord.ToList();
+
+            return Logins;
+        }
+
+        [HttpPost("SetMedicalRecord")]
+        public returnMessage SetMedicalRecord([FromBody] MedicalRecord intoMedicalRecord)
+        {
+            returnMessage returnMessage = new returnMessage { isSucceed = true, errorManger = "" };
+
+            MedicalRecord tempMedicalRecords = _context.MedicalRecord.FirstOrDefault(t => t.VisitID == intoMedicalRecord.VisitID);
+            if (tempMedicalRecords != null)
+            {
+                // 使用 AutoMapper 将 DTO 映射到实体对象
+                _context.Entry(tempMedicalRecords).State = EntityState.Detached; // 分离实体
+                var mappedDoctorAppointment = _mapper.Map(intoMedicalRecord, tempMedicalRecords);
+                _context.Entry(tempMedicalRecords).State = EntityState.Modified;
+            }
+            else
+            {
+                _context.MedicalRecord.Add(intoMedicalRecord);
+            }
+
+            try
+            {
+                _context.SaveChanges();
+                // 处理并发冲突
+                return returnMessage;
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                // 处理并发冲突
+                returnMessage.isSucceed = false;
+                returnMessage.errorManger = "病历录入失败";
                 return returnMessage;
             }
         }

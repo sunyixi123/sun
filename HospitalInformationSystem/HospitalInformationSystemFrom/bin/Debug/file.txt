@@ -205,3 +205,540 @@
    在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
    在 HospitalInformationSystemFrom.FrmDoctorSchedule.<FrmDoctorSchedule_LoadAsync>d__2.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmDoctorSchedule.cs:行号 42
+2023-10-06 14:16:05.4271|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP MethodNotAllowed
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 48
+2023-10-06 14:17:09.9000|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP MethodNotAllowed
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 48
+2023-10-06 14:20:20.0663|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP MethodNotAllowed
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 48
+2023-10-06 14:20:56.9719|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP BadRequest
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 48
+2023-10-06 15:29:56.0800|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-69bf7e0ed2a1bd08c81107958721562c-865efcbbe698332e-00","errors":{"[0].CreateOperator":["The CreateOperator field is required."],"[0].UpdaterOperator":["The UpdaterOperator field is required."],"[1].CreateOperator":["The CreateOperator field is required."],"[1].UpdaterOperator":["The UpdaterOperator field is required."],"[2].CreateOperator":["The CreateOperator field is required."],"[2].UpdaterOperator":["The UpdaterOperator field is required."],"[3].CreateOperator":["The CreateOperator field is required."],"[3].UpdaterOperator":["The UpdaterOperator field is required."],"[4].CreateOperator":["The CreateOperator field is required."],"[4].UpdaterOperator":["The UpdaterOperator field is required."],"[5].CreateOperator":["The CreateOperator field is required."],"[5].UpdaterOperator":["The UpdaterOperator field is required."],"[6].CreateOperator":["The CreateOperator field is required."],"[6].UpdaterOperator":["The UpdaterOperator field is required."],"[7].CreateOperator":["The CreateOperator field is required."],"[7].UpdaterOperator":["The UpdaterOperator field is required."],"[8].CreateOperator":["The CreateOperator field is required."],"[8].UpdaterOperator":["The UpdaterOperator field is required."],"[9].CreateOperator":["The CreateOperator field is required."],"[9].UpdaterOperator":["The UpdaterOperator field is required."],"[10].CreateOperator":["The CreateOperator field is required."],"[10].UpdaterOperator":["The UpdaterOperator field is required."],"[11].CreateOperator":["The CreateOperator field is required."],"[11].UpdaterOperator":["The UpdaterOperator field is required."],"[12].CreateOperator":["The CreateOperator field is required."],"[12].UpdaterOperator":["The UpdaterOperator field is required."],"[13].CreateOperator":["The CreateOperator field is required."],"[13].UpdaterOperator":["The UpdaterOperator field is required."],"[14].CreateOperator":["The CreateOperator field is required."],"[14].UpdaterOperator":["The UpdaterOperator field is required."],"[15].CreateOperator":["The CreateOperator field is required."],"[15].UpdaterOperator":["The UpdaterOperator field is required."],"[16].CreateOperator":["The CreateOperator field is required."],"[16].UpdaterOperator":["The UpdaterOperator field is required."],"[17].CreateOperator":["The CreateOperator field is required."],"[17].UpdaterOperator":["The UpdaterOperator field is required."],"[18].CreateOperator":["The CreateOperator field is required."],"[18].UpdaterOperator":["The UpdaterOperator field is required."],"[19].CreateOperator":["The CreateOperator field is required."],"[19].UpdaterOperator":["The UpdaterOperator field is required."],"[20].CreateOperator":["The CreateOperator field is required."],"[20].UpdaterOperator":["The UpdaterOperator field is required."],"[21].CreateOperator":["The CreateOperator field is required."],"[21].UpdaterOperator":["The UpdaterOperator field is required."],"[22].CreateOperator":["The CreateOperator field is required."],"[22].UpdaterOperator":["The UpdaterOperator field is required."],"[23].CreateOperator":["The CreateOperator field is required."],"[23].UpdaterOperator":["The UpdaterOperator field is required."],"[24].CreateOperator":["The CreateOperator field is required."],"[24].UpdaterOperator":["The UpdaterOperator field is required."],"[25].CreateOperator":["The CreateOperator field is required."],"[25].UpdaterOperator":["The UpdaterOperator field is required."],"[26].CreateOperator":["The CreateOperator field is required."],"[26].UpdaterOperator":["The UpdaterOperator field is required."],"[27].CreateOperator":["The CreateOperator field is required."],"[27].UpdaterOperator":["The UpdaterOperator field is required."],"[28].CreateOperator":["The CreateOperator field is required."],"[28].UpdaterOperator":["The UpdaterOperator field is required."],"[29].CreateOperator":["The CreateOperator field is required."],"[29].UpdaterOperator":["The UpdaterOperator field is required."],"[30].CreateOperator":["The CreateOperator field is required."],"[30].UpdaterOperator":["The UpdaterOperator field is required."],"[31].CreateOperator":["The CreateOperator field is required."],"[31].UpdaterOperator":["The UpdaterOperator field is required."],"[32].CreateOperator":["The CreateOperator field is required."],"[32].UpdaterOperator":["The UpdaterOperator field is required."],"[33].CreateOperator":["The CreateOperator field is required."],"[33].UpdaterOperator":["The UpdaterOperator field is required."],"[34].CreateOperator":["The CreateOperator field is required."],"[34].UpdaterOperator":["The UpdaterOperator field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 15:41:35.1670|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 15:44:23.1749|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 15:46:08.0619|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 16:03:53.3595|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP System.InvalidOperationException: The instance of entity type 'DoctorSchedule' cannot be tracked because another instance with the key value '{ScheduleID: 0}' is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at HospitalInformationSystem.Controllers.UserController.SetDoctorSchedules(List`1 DoctorSchedule) in C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystem\Controllers\UserController.cs:line 164
+   at lambda_method115(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+HEADERS
+=======
+Host: localhost:5250
+Content-Type: application/json; charset=utf-8
+Expect: 100-continue
+Content-Length: 10014
+
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 16:07:35.2611|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 16:10:36.9993|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 16:17:43.9806|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 17:34:12.7721|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 17:37:20.1685|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 17:41:18.5456|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 17:54:00.1152|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:00:17.7160|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:00:21.1053|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:04:25.5693|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:07:05.4736|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:09:18.9769|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:09:19.0034|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:09:19.0419|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:12:13.6710|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:12:23.2026|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:12:27.2936|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   在 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:17:49.2534|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:27:26.8374|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:29:13.1204|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:29:13.1734|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:29:13.2399|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:29:13.3259|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:37:23.6272|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP 
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 18:38:08.6433|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP 
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 18:39:44.0009|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:40:50.5258|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 18:50:34.3421|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 基础连接已经关闭: 接收时发生错误。 ---> System.IO.IOException: 无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.Connection.ReadCallback(IAsyncResult asyncResult)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 38
+2023-10-06 19:11:14.2118|ERROR|HospitalInformationSystemFrom.FrmAppointment|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmAppointment.<dataGridView1_CellDoubleClick>d__6.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmAppointment.cs:行号 134
+2023-10-06 21:55:10.0840|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-9db1d4f8efce1f62440ad5ecc131ff20-e07814d8c86a526a-00","errors":{"$":["The JSON value could not be converted to System.Collections.Generic.List`1[DoctorAppointment]. Path: $ | LineNumber: 0 | BytePositionInLine: 1."],"DoctorAppointment":["The DoctorAppointment field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 21:56:14.8079|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-2b47f3dce91bdf1943d2dbd158a32481-adb16fcbcec1768d-00","errors":{"$":["The JSON value could not be converted to System.Collections.Generic.List`1[DoctorAppointment]. Path: $ | LineNumber: 0 | BytePositionInLine: 1."],"DoctorAppointment":["The DoctorAppointment field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 21:57:54.1442|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-ea7199345b7d12f678ec9ff97b76e6aa-a930a6a47d85f407-00","errors":{"$":["The JSON value could not be converted to System.Collections.Generic.List`1[DoctorAppointment]. Path: $ | LineNumber: 0 | BytePositionInLine: 1."],"DoctorAppointment":["The DoctorAppointment field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 21:58:57.3007|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-b93e051d4a22bc75f0b7b6064e24fcc5-54fbb3bc3bc7dbe4-00","errors":{"$":["The JSON value could not be converted to System.Collections.Generic.List`1[DoctorAppointment]. Path: $ | LineNumber: 0 | BytePositionInLine: 1."],"DoctorAppointment":["The DoctorAppointment field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 21:59:32.5210|ERROR|HospitalInformationSystemFrom.FrmAppointment|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmAppointment.<FrmAppointment_Load>d__5.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmAppointment.cs:行号 95
+2023-10-06 22:00:28.4429|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-90c9822529df42f5ddb34016f0c7ba1f-64ead85bcc8bc328-00","errors":{"$":["The JSON value could not be converted to System.Collections.Generic.List`1[DoctorAppointment]. Path: $ | LineNumber: 0 | BytePositionInLine: 1."],"DoctorAppointment":["The DoctorAppointment field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-06 22:04:59.3423|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-46e57b262b92b8c06c3328132730e306-717c14f776bdc8d2-00","errors":{"$":["The JSON value could not be converted to System.Collections.Generic.List`1[DoctorAppointment]. Path: $ | LineNumber: 0 | BytePositionInLine: 1."],"DoctorAppointment":["The DoctorAppointment field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50
+2023-10-07 21:14:02.9919|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<FrmRegister_Load>d__9.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 129
+2023-10-07 21:14:07.1087|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<FrmRegister_Load>d__9.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 158
+2023-10-07 21:14:43.9275|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 46
+2023-10-07 21:14:45.5226|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 46
+2023-10-07 21:14:48.0173|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 70
+2023-10-07 21:14:48.9466|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 46
+2023-10-07 21:14:49.4272|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 46
+2023-10-07 21:14:49.6119|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 70
+2023-10-07 21:14:53.0369|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 70
+2023-10-07 21:14:53.5179|ERROR|HospitalInformationSystemFrom.FrmRegister|FrmLogin-butLogin|System.Net.Http.HttpRequestException: 发送请求时出错。 ---> System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5250
+   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 HospitalInformationSystemFrom.FrmRegister.<button2_Click>d__4.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\FrmRegister.cs:行号 70
+2024-03-14 21:54:02.2287|ERROR|HospitalInformationSystemFrom.PublicClass.HttpHelper|System.Net.Http.HttpRequestException: HTTP {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-ddb80fdcfc491480a7f4dfac560d4ed8-b1b4fe01bece426a-00","errors":{"UserInfo.Email":["The Email field is required."]}}
+   在 HospitalInformationSystemFrom.PublicClass.HttpHelper.<SendPostRequestAsync>d__3.MoveNext() 位置 C:\bysj\bysj\HospitalInformationSystem\HospitalInformationSystemFrom\PublicClass\HttpHelper.cs:行号 50

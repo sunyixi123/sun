@@ -57,6 +57,9 @@
     <Compile Include="dto\DoctorAppointment.cs" />
     <Compile Include="dto\DoctorSchedule.cs" />
     <Compile Include="dto\Login.cs" />
+    <Compile Include="dto\MedicalRecord.cs" />
+    <Compile Include="dto\MedicalVisit.cs" />
+    <Compile Include="dto\Prescription.cs" />
     <Compile Include="dto\returnMessage.cs" />
     <Compile Include="dto\UserInfo.cs" />
     <Compile Include="FrmAppointment.cs">
@@ -76,6 +79,30 @@
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrderShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrderShow.Designer.cs">
+      <DependentUpon>FrmOrderShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrder.Designer.cs">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserRegistration.Designer.cs">
+      <DependentUpon>FrmUserRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRegistration.cs">
       <SubType>Form</SubType>
@@ -100,6 +127,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrderShow.resx">
+      <DependentUpon>FrmOrderShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrder.resx">
+      <DependentUpon>FrmOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserRegistration.resx">
+      <DependentUpon>FrmUserRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRegistration.resx">
       <DependentUpon>FrmRegistration.cs</DependentUpon>

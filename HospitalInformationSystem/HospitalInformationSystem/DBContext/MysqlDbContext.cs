@@ -9,6 +9,7 @@ namespace HospitalInformationSystem.DBContext
         public MysqlDbContext(DbContextOptions<MysqlDbContext> options)
       : base(options) { }
 
+
         public DbSet<UserInfo> UserInfo { get; set; }
 
         public DbSet<Login> Login { get; set; }
@@ -17,6 +18,11 @@ namespace HospitalInformationSystem.DBContext
 
         public DbSet<DoctorAppointment> DoctorAppointment { get; set; }
 
+        public DbSet<MedicalVisit> MedicalVisit { get; set; }
+
+        public DbSet<Prescription> Prescription { get; set; }
+
+        public DbSet<MedicalRecord> MedicalRecord { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

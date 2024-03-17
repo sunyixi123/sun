@@ -28,7 +28,7 @@ namespace HospitalInformationSystemFrom
         UserInfo setUserInfo = new UserInfo();
         Login setLogin = new Login();
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
-        private async void textBox4_KeyPressAsync(object sender, KeyPressEventArgs e)
+        private void TextBox4_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Keys.Enter == (Keys)e.KeyChar)
             {

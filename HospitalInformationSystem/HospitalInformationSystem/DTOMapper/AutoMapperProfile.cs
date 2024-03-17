@@ -10,5 +10,8 @@ public class AutoMapperProfile : Profile
         CreateMap<Login, Login>();
         CreateMap<DoctorSchedule, DoctorSchedule>();
         CreateMap<DoctorAppointment, DoctorAppointment>();
+        CreateMap<MedicalVisit, MedicalVisit>();
+        CreateMap<Prescription, Prescription>();
+        CreateMap<MedicalRecord, MedicalRecord>();
     }
 }

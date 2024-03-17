@@ -92,7 +92,7 @@
             this.butLogin.Name = "butLogin";
             this.butLogin.Size = new System.Drawing.Size(75, 34);
             this.butLogin.TabIndex = 5;
-            this.butLogin.Text = "登入";
+            this.butLogin.Text = "登录";
             this.butLogin.UseVisualStyleBackColor = true;
             this.butLogin.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -123,7 +123,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "登入";
+            this.Text = "登录";
             this.ResumeLayout(false);
             this.PerformLayout();
 
